@@ -1,10 +1,47 @@
 :root {
-  /* Dark neutral colors */
-  --dark-mode-elements: hsl(209, 23%, 22%);
-  --dark-mode-bg: hsl(207, 26%, 17%);
-  /* Light neutral colors  */
-  --light-mode-text: hsl(200, 15%, 8%);
-  --light-mode-input: hsl(0, 0%, 52%);
-  --light-mode-bg: hsl(0, 0%, 98%);
-  --light-white: hsl(0, 0%, 100%);
+  --clr-element: hsl(0, 0%, 100%);
+  --clr-text: hsl(200, 15%, 8%);
+  --clr-input: hsl(0, 0%, 52%);
+  --clr-bg: hsl(0, 0%, 98%);
+}
+
+.darkmode {
+  --clr-bg: hsl(207, 26%, 17%);
+  --clr-text: hsl(0, 0%, 100%);
+  --clr-input: hsl(0, 0%, 52%);
+  --clr-element: hsl(209, 23%, 22%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+.header__dark-mode-toggle {
+  background-color: var(--clr-bg);
+  color: var(--clr-text);
+}
+
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* header */
+.header {
+  background-color: var(--clr-element);
+}
+
+.header .container {
+  height: 6rem;
 }
