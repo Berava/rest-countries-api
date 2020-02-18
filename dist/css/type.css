@@ -39,3 +39,8 @@ h4 {
 p {
   font-size: var(--base-size);
 }
+
+/* Main section */
+input[type='search'] {
+  font-size: var(--h3);
+}

@@ -12,7 +12,7 @@ const disableDarkMode = () => {
 }
 
 if(darkMode === "enabled") {
-    enableDarkMode();
+    enableDarkMode()
 }
 
 darkModeButton.addEventListener('click', () => {

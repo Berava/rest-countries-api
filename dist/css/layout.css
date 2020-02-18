@@ -3,3 +3,33 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.flags {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 5rem;
+  justify-content: center;
+  justify-items: stretch;
+}
+
+.filters .container {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.select-box .options-container {
+  order: 1;
+}
+
+.selected {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  order: 0;
+}
