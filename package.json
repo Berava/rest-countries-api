@@ -4,8 +4,8 @@
   "description": "![Design preview for the REST Countries API with color theme switcher coding challenge](https://res.cloudinary.com/dz209s6jk/image/upload/v1554827486/Challenges/wirxeocmd6tpnn9c5oqc.jpg)",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html"
   },
   "repository": {
     "type": "git",
