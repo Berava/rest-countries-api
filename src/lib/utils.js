@@ -19,13 +19,13 @@ export function displayFlags(data) {
         <figure class="flag">
         <a href="./flag.html?code=${country.alpha3Code}">
             <img src="${country.flag}" alt="${country.name}" />
+            </a>
             <figcaption>
               <h2>${country.name}</h2>
               <p><strong>Population:</strong> ${country.population}</p>
               <p class="region"><strong>Region:</strong> ${country.region}</p>
               <p><strong>Capital:</strong> ${country.capital}</p>
             </figcaption>
-            </a>
         </figure>
             `;
     });
